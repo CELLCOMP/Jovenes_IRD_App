@@ -5,34 +5,48 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/inicio_menu"
+            android:icon="@drawable/inicio_icon"
+            android:title="Inicio" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/reuniones_menu"
+            android:icon="@drawable/calendario_icon"
+            android:title="@string/reuniones_title" />
+        <item
+            android:id="@+id/fotos_menu"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:title="Fotos" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/videos_menu"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="Videos" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/ajustes_menu"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="Ajustes" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Siguénos también">
+        <menu>
+            <item
+                android:id="@+id/facebook_menu"
+                android:icon="@drawable/facebook_icon"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/instagram_menu"
+                android:icon="@drawable/instagram_icon"
+                android:title="Instagram" />
+        </menu>
+    </item>
+    <item android:title="Ayuda o Sugerencias">
         <menu>
             <item
                 android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:icon="@drawable/ayuda_icon"
+                android:title="Contactanos" />
+
         </menu>
     </item>
+
 
 </menu>
