@@ -9,4 +9,10 @@
     <string name="iglesia_title">Iglesia Revelacion Divina</string>
     <string name="jovenes_title">Jóvenes IRD</string>
     <string name="reuniones_title">Reuniones</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mensaje_example">Dios los bendiga Jovenes este viernes tendremos nuestra reunion genera</string>
+    <string name="ip">http://192.168.137.1</string>
+    <string name="tituloTimer">!Hoy recuerda tenemos reunion!</string>
 </resources>

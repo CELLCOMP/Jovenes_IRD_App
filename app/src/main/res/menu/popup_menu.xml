@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/compartir_popup"
+        android:title="Compartir" />
+
+    <item android:id="@+id/edit_popup"
+        android:title="Editar"/>
+
+    <item android:id="@+id/eliminar_popup"
+        android:title="Eliminar"/>
+
+</menu>
